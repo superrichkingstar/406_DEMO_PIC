@@ -1,0 +1,18 @@
+HTTPS:https://github.com/superrichkingstar/406_DEMO_PIC.git
+SSH:git@github.com:superrichkingstar/406_DEMO_PIC.git
+
+GITHUB CLONE:https://github.com/superrichkingstar/406_DEMO_PIC
+
+…or create a new repository on the command line
+echo "# 406_DEMO_PIC" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/superrichkingstar/406_DEMO_PIC.git
+git push -u origin main
+
+…or push an existing repository from the command line
+git remote add origin git@github.com:superrichkingstar/406_DEMO_PIC.git
+git branch -M main
+git push -u origin main
